@@ -1,0 +1,148 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "freelancer@^0.1.7",
+        "scope": null,
+        "escapedName": "freelancer",
+        "name": "freelancer",
+        "rawSpec": "^0.1.7",
+        "spec": ">=0.1.7 <0.2.0",
+        "type": "range"
+      },
+      "/Users/clwang/Documents/Bitbucket"
+    ]
+  ],
+  "_from": "freelancer@>=0.1.7 <0.2.0",
+  "_id": "freelancer@0.1.7",
+  "_inCache": true,
+  "_location": "/freelancer",
+  "_nodeVersion": "7.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/freelancer-0.1.7.tgz_1488875334953_0.0649784728884697"
+  },
+  "_npmUser": {
+    "name": "wildhoney",
+    "email": "adam.timberlake@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "freelancer@^0.1.7",
+    "scope": null,
+    "escapedName": "freelancer",
+    "name": "freelancer",
+    "rawSpec": "^0.1.7",
+    "spec": ">=0.1.7 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/freelancer/-/freelancer-0.1.7.tgz",
+  "_shasum": "c712ada46e4b438c9eabf06efdd775b928da2948",
+  "_shrinkwrap": null,
+  "_spec": "freelancer@^0.1.7",
+  "_where": "/Users/clwang/Documents/Bitbucket",
+  "author": {
+    "name": "Adam Timberlake",
+    "email": "adam.timberlake@gmail.com"
+  },
+  "ava": {
+    "files": [
+      "tests/*.test.js"
+    ],
+    "babel": "inherit",
+    "require": [
+      "babel-register",
+      "./tests/helpers/mock-workers.js"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Wildhoney/Freelancer/issues"
+  },
+  "dependencies": {},
+  "description": "An implementation of on-the-fly defined WebWorkers that are created inline using data URIs, rather than separate physical files — for the benefit of all humanity..",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "jimp": "^0.2.27",
+    "opener": "^1.4.2",
+    "sinon": "^1.17.7",
+    "webpack": "^2.2.1",
+    "xo": "^0.17.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c712ada46e4b438c9eabf06efdd775b928da2948",
+    "tarball": "https://registry.npmjs.org/freelancer/-/freelancer-0.1.7.tgz"
+  },
+  "gitHead": "be3d404e03873145507f0b24fdc83cea9f2c11a7",
+  "homepage": "https://github.com/Wildhoney/Freelancer#readme",
+  "jsnext:main": "src/freelancer.js",
+  "keywords": [
+    "webworker",
+    "webworker",
+    "webworkers",
+    "sharedworker",
+    "concurrency",
+    "concurrent"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/freelancer.js",
+  "maintainers": [
+    {
+      "name": "wildhoney",
+      "email": "adam.timberlake@gmail.com"
+    }
+  ],
+  "name": "freelancer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wildhoney/Freelancer.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "create": "mkdir -p example/images && webpack --config example/webpack.config.js && babel example/tools/autocrop.js | node",
+    "lint": "xo",
+    "spec": "ava",
+    "start": "npm run create && babel example/server/default.js | node",
+    "test": "npm run lint && npm run spec",
+    "watch": "webpack --config example/webpack.config.js --watch"
+  },
+  "version": "0.1.7",
+  "xo": {
+    "space": 4,
+    "parser": "babel-eslint",
+    "esnext": true,
+    "globals": [
+      "window",
+      "self",
+      "Blob",
+      "URL",
+      "Worker",
+      "SharedWorker"
+    ],
+    "rules": {
+      "padded-blocks": "off",
+      "constructor-super": "off",
+      "object-curly-spacing": [
+        2,
+        "always"
+      ],
+      "no-unused-expressions": "off",
+      "import/prefer-default-export": "off",
+      "no-duplicate-imports": "off"
+    }
+  }
+}

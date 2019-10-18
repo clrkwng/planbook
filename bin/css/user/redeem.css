@@ -1,0 +1,54 @@
+body {
+    background-color: #7BAABE;
+}
+
+h1 {
+    font-size: 6em;
+    color: rgba(0,0,0,0.5);
+}
+
+table {
+    width: 100%;
+    /*height: 100%;*/
+    text-align: center;
+}
+
+.toAwards {
+    font: 26px Monaco, MonoSpace;
+    height: 120px;
+    position: absolute;
+    width: 20px;
+    left: 1%;
+    transform-origin: bottom center;
+}
+
+#toAwards1 { transform: rotate(18deg); }
+#toAwards2 { transform: rotate(30deg); }
+#toAwards3 { transform: rotate(54deg); }
+#toAwards4 { transform: rotate(66deg); }
+#toAwards5 { transform: rotate(78deg); }
+#toAwards6 { transform: rotate(102deg); }
+#toAwards7 { transform: rotate(114deg); }
+#toAwards8 { transform: rotate(126deg); }
+#toAwards9 { transform: rotate(138deg); }
+#toAwards10 { transform: rotate(150deg); }
+#toAwards11 { transform: rotate(162deg); }
+
+table#rewardsTable tr#tableHeader td {
+    height: 50px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#doneButton {
+    height: 25px;
+    background-color: #1f6377;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table tr td#awardsSideBar p{
+    height: 55px;
+}

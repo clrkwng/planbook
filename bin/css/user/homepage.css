@@ -1,0 +1,102 @@
+table tr#starSymbols td {
+    vertical-align: bottom;
+    height: 27%;
+}
+
+table tr#trophySymbols td {
+    vertical-align: bottom;
+    height: 32%;
+}
+
+table tr#starCount td {
+    vertical-align: top;
+    height: 6%;
+}
+
+table tr#trophyCount td {
+    vertical-align: top;
+    height: 6%;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+.toMarket {
+    font: 26px Monaco, MonoSpace;
+    height: 120px;
+    position: absolute;
+    width: 20px;
+    right: 1%;
+    transform-origin: bottom center;
+}
+
+#toMarket1 {  transform: rotate(-172deg);  }
+
+#toMarket2 {  transform: rotate(-157deg);  }
+
+#toMarket3 {  transform: rotate(-142deg);  }
+
+#toMarket4 {  transform: rotate(-127deg);  }
+
+#toMarket5 {  transform: rotate(-112deg);  }
+
+#toMarket6 {  transform: rotate(-97deg);  }
+
+#toMarket7 {  transform: rotate(-67deg);  }
+
+#toMarket8 {  transform: rotate(-52deg);  }
+
+#toMarket9 {  transform: rotate(-37deg);  }
+
+#toMarket10 {  transform: rotate(-22deg);  }
+
+#toMarket11 {  transform: rotate(-7deg);  }
+
+#exchangeSystem p {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.panel-group .panel + .panel .panel-heading {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.panel {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+td {
+    height: 10px;
+}
+
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.invalidInput {
+    border: 3px solid red;
+}
+
+.extra {
+    display: none;
+}

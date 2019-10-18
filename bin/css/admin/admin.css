@@ -1,0 +1,13 @@
+body {
+    background-color: #e6f7ff
+}
+.tr th:last-child {
+    height: 80px
+}
+.tr td {
+    vertical-align: middle
+}
+
+.hoverable:hover {
+    background-color: #E4E4E4;
+}

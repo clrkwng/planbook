@@ -1,0 +1,26 @@
+h1 {
+    font-size: 6em;
+    color: #5e5e5e;
+}
+
+p {
+    font-size: 1.5em;
+    color: #5e5e5e;
+}
+
+a:link {
+    color: #002080;
+    text-decoration: none;
+}
+
+
+#container h1 {
+    padding-top: 60px;
+}
+
+.errorMessage {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    border: none;
+}
